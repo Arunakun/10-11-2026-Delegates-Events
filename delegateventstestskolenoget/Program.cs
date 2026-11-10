@@ -31,15 +31,11 @@ namespace delegateventstestskolenoget
             Kaffemaskine maskine = new();
 
             maskine.KaffeKlar += Barista;
-            /*maskine.KaffeKlar = Kunde; // Kan kaldes hvis event fjernes fra Notify
-            maskine.KaffeKlar(); // Kan kaldes hvis event fjernes fra Notify*/
-
-            /*maskine.KaffeKlar += Barista;
             maskine.KaffeKlar += Kunde;
             maskine.Brygg();
 
             Kaffemaskine lorteSirupsKaffeMaskine = new();
-            lorteSirupsKaffeMaskine.Brygg();*/
+            lorteSirupsKaffeMaskine.Brygg();
         }
 
         static int Plus(int a, int b) { return a + b; }
